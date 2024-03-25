@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final TextEditingController _promptcontroller = TextEditingController();
   final ImagePicker _imagePicker = ImagePicker();
   final apiUrl =
-      'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro-vision:generateContent?key=AIzaSyAGvm78vQFVsQwmkFbqfwt0bk-g9Bs8Fig';
+      'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro-vision:generateContent?key=';
   // Request header
   final header = {'Content-Type': 'application/json'};
 
